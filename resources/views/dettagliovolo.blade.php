@@ -8,7 +8,22 @@
   </head>
   <body>
     
-    <h1>Hello, world!</h1>
+    <div class="card" style="width: 18rem;">
+      <img src="{{$volo['cover']}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{$volo['city']}}</h5>
+        <ul class="list-group">
+          <li class="list-group-item">{{$volo['gate']}}</li>
+          <li class="list-group-item">{{$volo['company']}}</li>
+          <li class="list-group-item">{{$volo['id']}}</li>
+          <li class="list-group-item">{{$volo['seats']['total']}}</li>
+          <li class="list-group-item"></li>
+
+        </ul>
+      </div>
+    </div>
+
+    
 
 
 
